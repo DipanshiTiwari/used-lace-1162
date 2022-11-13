@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Learn More</title>
+    <link rel="stylesheet" href="./learn.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <div id="main-nav">
+      <div id="main-nav1">
+        <div id="find-text">FIND A CONSULTANT</div>
+
+        <div id="logo">
+          <a href="index.html"
+            ><img
+              src="https://www.rodanandfields.com/medias/rf-logo.svg?context=bWFzdGVyfGltYWdlc3w3MzczfGltYWdlL3N2Zyt4bWx8aW1hZ2VzL2g2MC9oYWIvODgyMjE0NzE4NjcxOC5zdmd8YjNmMmU2YTg5MTM0NTMzM2Y2ODg2ZmRkZTJhNmY2OWZhYmYyYjk5NWQxODkxODFiYjVkY2MxY2NjOWRlMzA5OA"
+          /></a>
+        </div>
+
+        <div id="search-bar">
+          <input type="text" id="item-search" placeholder="Search" />
+          <button id="search-btn" onclick="showresult()">
+            <img
+              src="https://cdn1.iconfinder.com/data/icons/hawcons/32/698956-icon-111-search-512.png"
+              alt="search-icon"
+            />
+          </button>
+        </div>
+
+        <div id="sign-in">
+          <a href="login.html">
+            <div>
+              Login
+              <span>
+                <img src="./images/user.png" alt="user" />
+              </span>
+            </div>
+          </a>
+        </div>
+
+        <div id="bag">
+          <img src="https://image.flaticon.com/icons/png/128/2438/2438157.png" alt="shopping cart" />
+        </div>
+
+        <div class="flag-menu" onclick="display()">
+          <div class="selected-flag" id="aa" value="aclick"></div>
+          <ul class="flag-ul">
+            <li class="flag-li">
+              <a id="a1" class="flag-a" href="index.html" value="a1click"></a>
+            </li>
+            <li class="flag-li">
+              <a id="a2" class="flag-a" href="index.html" value="a2click"></a>
+            </li>
+            <li class="flag-li">
+              <a id="a3" class="flag-a" href="index.html" value="a3click"></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <header>
+      <ul id="navbar">
+        <li class="drop-one">
+          <a href="#">SHOP</a>
+          <div class="menu-one">
+            <ul>
+              <li><h4>SHOP BY PRODUCT LINE</h4></li>
+              <li>REDEFINE</li>
+              <li>REVERSE</li>
+              <li>RECHARGE</li>
+              <li>UNBLEMISH</li>
+              <li>SPOTLESS</li>
+              <li>SOOTHE</li>
+              <li>ENHANCEMENTS</li>
+              <li>ESSENTIALS</li>
+              <li>DERMACOSMETICS</li>
+              <li>PRO SKINCARE TOOLS</li>
+              <li>ALL PRODUCTS</li>
+            </ul>
+            <ul>
+              <li><h4>SHOP BY CATEGORY</h4></li>
+              <li>REGIMENS</li>
+              <li>FACE SERUMS</li>
+              <li>EYES, LIPS & LASHES</li>
+              <li>FACEMASK</li>
+              <li>DERMACOSMETICS</li>
+              <li>HAND & BODY</li>
+              <li>SUN PROTECTION</li>
+              <li>PRO SKINCARE TOOLS</li>
+              <li>ACCESSORIES</li>
+              <li>PFC FOUNDATION</li>
+              <li>SPECIAL OFFERS</li>
+            </ul>
+            <ul>
+              <li><h4>SHOP BY CONCERN</h4></li>
+              <li>FINE LINES & DEEP WRINKLES</li>
+              <li>LIFTING & FIRMING</li>
+              <li>DULL & TIRED SKIN</li>
+              <li>ACNE & BREAKOUTS</li>
+              <li>TEEN ACNE</li>
+              <li>UNEVEN TONE/BROWN SPOTS</li>
+              <li>SENSITIVITY/VISIBLE REDNESS</li>
+              <li>PORES & BLACKHEADS</li>
+              <li>DRY SKIN</li>
+            </ul>
+          </div>
+        </li>
+        <li class="drop-two">
+          <a href="#">FEATURES</a>
+          <div class="menu-two">
+            <ul>
+              <li>BEST SELLERS</li>
+              <li>SPECIAL OFFERS</li>
+              <li>NEW REDEFINE</li>
+              <li>SPOTLESS FOR TEENS</li>
+              <li>SELF CARE ESSENTIALS</li>
+            </ul>
+          </div>
+        </li>
+        <li class="drop-three">
+          <a href="#">BEFORE & AFTERS</a>
+          <div class="menu-three">
+            <ul>
+              <li>FINE LINES & DEEP WRINKLES</li>
+              <li>LIFTING & FIRMING</li>
+              <li>DULL & TIRED SKIN</li>
+              <li>ACNE & BREAKOUTS</li>
+              <li>UNEVEN TONE/BROWN SPOTS</li>
+              <li>SENSITIVITY/VISIBLE REDNESS</li>
+              <li>PORES & BLACKHEADS</li>
+            </ul>
+          </div>
+        </li>
+        <li class="drop-four">
+          <a href="#">OUR STORY</a>
+          <div class="menu-four">
+            <ul>
+              <li>R+F DIFFERENCE</li>
+              <li>PERSONALIZED SERVICE</li>
+              <li>EXPLORE OUR REGIMENS</li>
+              <li>OUR FOUNDERS</li>
+              <li>OUR IMPACT</li>
+            </ul>
+          </div>
+        </li>
+        <li class="drop-five">
+          <a href="#">PERKS PROGRAM</a>
+          <div class="menu-five">
+            <ul>
+              <a href="learnmore.html"><li>LEARN MORE</li></a>
+              <li>PERKS FAQS</li>
+            </ul>
+          </div>
+        </li>
+        <li class="drop-six">
+          <a href="#">BECAME A CONSULTANT</a>
+          <div class="menu-six">
+            <ul>
+              <li>WHY R+F</li>
+              <li>GET SET FOR SUCCESS</li>
+              <li>CONSULTANT FAQS</li>
+              <li>ENROLL NOW</li>
+            </ul>
+          </div>
+        </li>
+        <li><a href="blog.html">BLOG</a></li>
+      </ul>
+    </header>
+
+    <div id="perksLogo">
+      <img src="perkslogo.png" alt="" />
+    </div>
+    <div id="description">
+      <p>
+        Save money, enjoy free shipping and get a free gift ($50+ retail price) with your 2nd order when you match with
+        a Consultant and become a Preferred Customer (PC). All for a one-time fee of $19.95. Between discounts + free
+        shipping, the membership pays for itself!
+      </p>
+    </div>
+    <div class="offersCont">
+      <div class="offersSeparateCont">
+        <div class="offersLogo">
+          <img
+            src="https://www.rodanandfields.com/medias/20-PC-Perks-LP-Desktop-US-01.jpg?context=bWFzdGVyfHJvb3R8MTAzOTV8aW1hZ2UvanBlZ3xoZWEvaGU1LzExMDA0MzY2NzE2OTU4LmpwZ3xkOTYyNTBmYjVmNDkwYzNhNDJiMDljMTU2OTFkZWZiZTkwNTMwOWUyMDZhZjE1YjU2MGJmYjVkYzZmYzkwMWFk"
+            alt="logo"
+          />
+        </div>
+        <div class="offersText">
+          <h3>10% OFF</h3>
+          <br />
+          <p>Get 10% off every order, starting with your first</p>
+        </div>
+      </div>
+      <div class="offersSeparateCont">
+        <div class="offersLogo">
+          <img
+            src="https://www.rodanandfields.com/medias/20-PC-Perks-LP-Desktop-US-02.jpg?context=bWFzdGVyfHJvb3R8OTMwOHxpbWFnZS9qcGVnfGhmZC9oMGMvMTEwMDQzNjY3ODI0OTQuanBnfDdmMzUyNGIxZDAwMjkxNmNiNjJmYWUwYzA2NjllNDFlNTNhYTMyYzBiYjA3ZjFlNWIwNGYwY2Q3NDFiMjBkOGM"
+            alt="logo"
+          />
+        </div>
+        <div class="offersText">
+          <h3>FREE SHIPPING</h3>
+          <br />
+          <p>Get free shipping on orders $80+</p>
+        </div>
+      </div>
+      <div class="offersSeparateCont">
+        <div class="offersLogo">
+          <img
+            src="https://www.rodanandfields.com/medias/20-PC-Perks-LP-Desktop-US-03.jpg?context=bWFzdGVyfHJvb3R8MTIyMDF8aW1hZ2UvanBlZ3xoZTIvaDViLzExMDA0MzY2ODQ4MDMwLmpwZ3w5ZDA3ZWMzY2I4YWFlZGRhNDM1YWRjNzlmODQ4OGFhNmJkMTA3NWMzMTI5OWMwNjQ5MGE3MjZhNGM1MDY5ZTli"
+            alt="logo"
+          />
+        </div>
+        <div class="offersText">
+          <h3>FREE PERKS PRESENT</h3>
+          <br />
+          <p>Get a free gift ($50+ retail price) with your 2nd order placed 30-90 days after enrollment</p>
+        </div>
+      </div>
+    </div>
+    <div class="offersCont2">
+      <div class="offersSeparateCont">
+        <div class="offersLogo">
+          <img
+            src="https://www.rodanandfields.com/medias/20-PC-Perks-LP-Desktop-US-04.jpg?context=bWFzdGVyfHJvb3R8MTI1MDl8aW1hZ2UvanBlZ3xoZjMvaGQ3LzExMDA0MzY2OTEzNTY2LmpwZ3xkMWRmNjQ0MDhmMTg3ZThlZmE3OWNjMmQ3YjQ3ODY3NWIzYmJiNmI1ZGQ5ZGQxODFkYWU3ZmYwZjkyMmQ0ZjA0"
+            alt="logo"
+          />
+        </div>
+        <div class="offersText">
+          <h3>OFFERS + REWARDS</h3>
+          <br />
+          <p>Get exclusive access to personalized offers + rewards</p>
+        </div>
+      </div>
+      <div class="offersSeparateCont">
+        <div class="offersLogo">
+          <img
+            src="https://www.rodanandfields.com/medias/20-PC-Perks-LP-Desktop-US-05.jpg?context=bWFzdGVyfHJvb3R8MTAwNzl8aW1hZ2UvanBlZ3xoOWEvaGVkLzExMDA0MzY2OTc5MTAyLmpwZ3xiNDQ3NjE1NWIwMDY1MTI1N2RjMjk0Y2FhNTYxMDk1N2M4YjA2MjA1OTgwZTcyMTg3Y2E0ODM5Y2NlN2M0MjE4"
+            alt="logo"
+          />
+        </div>
+        <div class="offersText">
+          <h3>FLEX SUBSCRIPTION</h3>
+          <br />
+          <p>Get convenient delivery of your subscription cart every 60 days. Adjust or cancel any time.</p>
+        </div>
+      </div>
+      <div class="offersSeparateCont">
+        <div class="offersLogo">
+          <img
+            src="https://www.rodanandfields.com/medias/20-PC-Perks-LP-Desktop-US-06.jpg?context=bWFzdGVyfHJvb3R8MTIwNzh8aW1hZ2UvanBlZ3xoNDcvaDgyLzExMDA0MzY3MDQ0NjM4LmpwZ3wxZDZlYzA0MTc3M2I4OWY2NDU5NTZkMTA5ZGNkYTFkODRhOWZlM2FmOTQ3YTEyNzgyNjhkYzI5YWJjODE1M2Zj"
+            alt="logo"
+          />
+        </div>
+        <div class="offersText">
+          <h3>CONSULTANT</h3>
+          <br />
+          <p>Get personalized recommendations, advice, help & more</p>
+        </div>
+      </div>
+    </div>
+    <div class="imageContainer">
+      <div class="imageBox">
+        <img
+          src="https://www.rodanandfields.com/medias/20-PC-Perks-LP-Desktop-US-07.jpg?context=bWFzdGVyfHJvb3R8MTgxNzV8aW1hZ2UvanBlZ3xoZTgvaDE0LzExMDA0MzY2NDU0ODE0LmpwZ3xkZTk5NGI5MmEyMzZkNTZkNWVmY2I1OGIzMjZlMmMwOTU4MTQ2ZWMxOTc4YTUwMTdiMWU5NmNlMWQ3NzFlOWRi"
+          alt=""
+        />
+      </div>
+      <div class="textBox">
+        <h2>HOW TO ENROLL</h2>
+        <p>
+          Add the products you want to your cart and check the PC Perks box in your shopping bag to opt in on any order
+          $80+
+        </p>
+        <button>SHOP NOW</button>
+      </div>
+    </div>
+    <div class="imageContainer">
+      <div class="textBox">
+        <h2>PCS LOVE THE PERKS</h2>
+        <p>
+          “My consultant makes me feel remembered and appreciated! <br />
+          – Brianna
+        </p>
+      </div>
+      <div class="imageBox">
+        <img
+          src="https://www.rodanandfields.com/medias/20-PC-Perks-LP-Desktop-US-08.jpg?context=bWFzdGVyfHJvb3R8MTAwNjgzfGltYWdlL2pwZWd8aGMxL2hlOC8xMTAwNDM2NjUyMDM1MC5qcGd8ZDA3MDNmOWExM2FlNDYwM2E0YzVmYzdmYTZkNzlhOTc2OGJkNDRjYzhiN2E4ZTllYWUwMTNjZWRiNmI0NDY0NQ"
+          alt=""
+        />
+      </div>
+    </div>
+    <div class="imageContainer">
+      <div class="imageBox">
+        <img
+          src="https://www.rodanandfields.com/medias/20-PC-Perks-LP-Desktop-US-09.jpg?context=bWFzdGVyfHJvb3R8OTg2Mzd8aW1hZ2UvanBlZ3xoMjMvaDM1LzExMDA0MzY2NTg1ODg2LmpwZ3w4YWRiM2ZkMThjNTJlM2U2NmY3OGIxOWVhNGFhYWFiYmJmNGQyMTdlZWRhMjMyNTQ1NjNjOGU3ZDRhZDgxMDAz"
+          alt=""
+        />
+      </div>
+      <div class="textBox">
+        <h2>PCS LOVE THE PERKS</h2>
+        <p>
+          “It's flexible. So, I'm not locked into buying something every month if I don't need it.”<br />
+          – Sherry
+        </p>
+      </div>
+    </div>
+    <div class="imageContainer">
+      <div class="textBox">
+        <h2>PCS LOVE THE PERKS</h2>
+        <p>
+          “I find out about new products first, get 10% off everything and get free shipping!!”<br />
+          – Jessica
+        </p>
+      </div>
+      <div class="imageBox">
+        <img
+          src="https://www.rodanandfields.com/medias/20-PC-Perks-LP-Desktop-US-10.jpg?context=bWFzdGVyfHJvb3R8MTUzMzU5fGltYWdlL2pwZWd8aDA5L2g1Ny8xMTAwNDM2NjY1MTQyMi5qcGd8Yjk4MWNlMzg5ZjYzN2ViMGMyY2RmZTk3ODZkNTBjNzJiOTkxNjAzNjU1ZmIyZDk5ZGVhZTcyMjkzOWJkMzg2Nw"
+          alt=""
+        />
+      </div>
+    </div>
+    <div class="end-line">
+      <h1>ALREADY A CUSTOMER?</h1>
+      <p>
+        If you’re an R+F customer and want to upgrade to PC Perks, call our Priority Customer Service line: 877-PERKSRF
+        (877-737-5773).
+      </p>
+      <a href="#">Visit FAQs for more information</a> <br />
+      <hr />
+      <a href="#">PC Perks Terms & Conditions</a>
+    </div>
+    <div id="footer-cont">
+      <div id="about-cont">
+        <ul>
+          <li><h4>ABOUT R+F</h4></li>
+          <li>PRESS ROOM</li>
+          <li>COMPANY INFO</li>
+          <li>EXECUTIVE TEAM</li>
+          <li>CAREERS</li>
+          <li>R+F RECYCLING PROGRAM</li>
+          <li>BLOG</li>
+        </ul>
+      </div>
+      <div id="help-cont">
+        <ul>
+          <li><h4>HELP</h4></li>
+          <li>PRODUCT & HELP CENTER</li>
+          <li>SHIPPING</li>
+          <li>SATISFACTION GUARANTEE</li>
+          <li>PROMOTIONAL TERMS & CONDITIONS</li>
+          <li>R+F FAQS</li>
+          <li>SITE MAP</li>
+        </ul>
+      </div>
+      <div id="signin-cont">
+        <div id="signin-cont2">
+          <div id="touch">
+            <p>WANT TO JOIN R+F FAMILY?</p>
+          </div>
+          <div id="signin-form">
+            <a href="signup.html"><button id="signupBtn" onclick="show_msg()">Create New Account</button></a>
+          </div>
+          <div id="policy">
+            <p>By providing my email, I accept <span>Rodan & Fields Privacy Policy</span></p>
+          </div>
+          <div id="social-icon">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="footer-cont2">
+      <ul>
+        <li>© 2021 Rodan & Fields<span>|</span></li>
+        <li>Privacy Policy<span>|</span></li>
+        <li>Terms & Conditions<span>|</span></li>
+        <li>Accessibility<span>|</span></li>
+        <li>California Supply Chains Act<span>|</span></li>
+        <li>DSA Code of Ethics<span>|</span></li>
+        <li>Disclaimer<span>|</span></li>
+        <li>Preference Center</li>
+      </ul>
+    </div>
+  </body>
+</html>
